@@ -2,6 +2,7 @@
 
 import {Routes, Route} from "react-router-dom"
 import Home from "./pages/Home"
+import Detail from "./pages/Detail";
 
 
 function App() {
@@ -9,7 +10,9 @@ function App() {
     <div className="h-screen max-w-screen-lg m-auto bg-slate-300">
       <Routes>
       <Route path="/" element={<Home />} />
-      </Routes>
+      <Route path="/detail/:id" element={<Detail />} />
+
+        </Routes>
     </div>
   );
 }
