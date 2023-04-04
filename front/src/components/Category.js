@@ -1,14 +1,23 @@
 import React from 'react'
-
+import Post from './Post'
 
 const Category = () => {
   return (
     <div
-    className='flex-initial p-4 bg-slate-400 w-4/5'
+        className='w-4/5 flex flex-wrap bg-slate-500 p-5 flex justify-center'
     >
-        <ul>
-            <li></li>
-        </ul>
+
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+
 
     </div>
   )

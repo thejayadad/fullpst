@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div>
         <Navbar />
-        <div className='flex bg-sky-600'>
+        <div className='flex'>
             <Sidebar />
             <Category />
         </div>

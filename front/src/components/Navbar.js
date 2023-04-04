@@ -2,11 +2,9 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div
-    className='p-6'
-    >
-
-        Navbar</div>
+    <header className='w-full bg-sky-400 p-6'>
+        Header
+    </header>
   )
 }
 
